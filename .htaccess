@@ -1,0 +1,39 @@
+RewriteEngine On
+
+<IfModule mod_php.c>
+    php_value upload_max_filesize 2000M
+    php_value post_max_size 2000M
+    php_value max_execution_time 3600
+    php_value max_input_time 3600
+    php_value memory_limit 512M
+</IfModule>
+
+<IfModule mod_fcgid.c>
+    FcgidMaxRequestLen 2147483647
+</IfModule>
+
+<IfModule mod_fastcgi.c>
+    FastCgiMaxRequestLen 2147483647
+</IfModule>
+
+# Your existing rewrite rules
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+RewriteCond %{THE_REQUEST} \s/Tagalog-Dubbed-Anime/([^\s]+)\.php [NC]
+RewriteRule ^ %1 [R=301,L]
+
+RewriteRule ^$ index.php [L]
+
+RewriteRule ^upload/?$ upload.php [L]
+RewriteRule ^save-upload/?$ save_upload.php [L]
+
+RewriteRule ^login/?$ login.php [L]
+RewriteRule ^logout/?$ logout.php [L]
+
+RewriteRule ^series/([0-9]+)/?$ series.php?id=$1 [L,QSA]
+RewriteRule ^watch/([0-9]+)/?$ watch.php?id=$1 [L,QSA]
+RewriteRule ^edit/([0-9]+)/?$ edit.php?id=$1 [L,QSA]
+RewriteRule ^update/?$ update.php [L]
+RewriteRule ^delete/([0-9]+)/?$ delete.php?id=$1 [L,QSA]

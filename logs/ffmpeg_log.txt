@@ -1,0 +1,611 @@
+CMD:
+"C:\ffmpeg\ffmpeg-6.x-essentials_build\bin\ffmpeg.exe" -y -ss "00:00:05" -i "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_063922_2fe2b7ec.mp4" -vframes 1 -q:v 2 "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_063922_2fe2b7ec.jpg" 2>&1
+
+OUTPUT:
+ffmpeg version 2026-02-26-git-6695528af6-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 25.100 / 60. 25.100
+  libavcodec     62. 23.103 / 62. 23.103
+  libavformat    62. 10.101 / 62. 10.101
+  libavdevice    62.  2.100 / 62.  2.100
+  libavfilter    11. 12.100 / 11. 12.100
+  libswscale      9.  3.100 /  9.  3.100
+  libswresample   6.  2.100 /  6.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_063922_2fe2b7ec.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:24:11.95, start: 0.000000, bitrate: 218 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 165 kb/s, 23.98 fps, 23.98 tbr, 16k tbn, start 0.083000 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 48 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_063922_2fe2b7ec.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.10.101
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 23.98 fps, 23.98 tbn (default)
+    Metadata:
+      encoder         : Lavc62.23.103 mjpeg
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 000001f195cefe00] The specified filename 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_063922_2fe2b7ec.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 000001f195cefe00] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 000001f195cefd00] video:42KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=2.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.809x elapsed=0:00:00.05    
+
+
+CMD:
+"C:\ffmpeg\ffmpeg-6.x-essentials_build\bin\ffmpeg.exe" -y -ss "00:00:05" -i "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_064256_5c4ae635.mp4" -vframes 1 -q:v 2 "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_064256_5c4ae635.jpg" 2>&1
+
+OUTPUT:
+ffmpeg version 2026-02-26-git-6695528af6-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 25.100 / 60. 25.100
+  libavcodec     62. 23.103 / 62. 23.103
+  libavformat    62. 10.101 / 62. 10.101
+  libavdevice    62.  2.100 / 62.  2.100
+  libavfilter    11. 12.100 / 11. 12.100
+  libswscale      9.  3.100 /  9.  3.100
+  libswresample   6.  2.100 /  6.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_064256_5c4ae635.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:24:11.99, start: 0.000000, bitrate: 210 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 157 kb/s, 23.98 fps, 23.98 tbr, 16k tbn, start 0.083000 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 48 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_064256_5c4ae635.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.10.101
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 23.98 fps, 23.98 tbn (default)
+    Metadata:
+      encoder         : Lavc62.23.103 mjpeg
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 0000024f8db58440] The specified filename 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_064256_5c4ae635.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0000024f8db58440] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 0000024f8db58340] video:55KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=2.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.726x elapsed=0:00:00.05    
+
+
+=== Upload: 2026-02-27 06:52:29 ===
+File: Spy3.mp4
+Command: "C:\ffmpeg\ffmpeg-6.x-essentials_build\bin\ffmpeg.exe" -y -ss "00:00:05" -i "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_065229_e5d410a0.mp4" -vframes 1 -q:v 2 "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_065229_e5d410a0.jpg" 2>&1
+Output: ffmpeg version 2026-02-26-git-6695528af6-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 25.100 / 60. 25.100
+  libavcodec     62. 23.103 / 62. 23.103
+  libavformat    62. 10.101 / 62. 10.101
+  libavdevice    62.  2.100 / 62.  2.100
+  libavfilter    11. 12.100 / 11. 12.100
+  libswscale      9.  3.100 /  9.  3.100
+  libswresample   6.  2.100 /  6.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_065229_e5d410a0.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:24:12.05, start: 0.000000, bitrate: 258 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 204 kb/s, 23.98 fps, 23.98 tbr, 16k tbn, start 0.083000 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 48 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_065229_e5d410a0.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.10.101
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 23.98 fps, 23.98 tbn (default)
+    Metadata:
+      encoder         : Lavc62.23.103 mjpeg
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 00000242e5f04800] The specified filename 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_065229_e5d410a0.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 00000242e5f04800] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 00000242e5f04700] video:22KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=2.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.99x elapsed=0:00:00.04    
+
+--------------------------------------------------------------------------------
+
+=== Upload: 2026-02-27 06:55:11 ===
+File: Spy3.mp4
+Command: "C:\ffmpeg\ffmpeg-6.x-essentials_build\bin\ffmpeg.exe" -y -ss "00:00:05" -i "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_065510_95618df0.mp4" -vframes 1 -q:v 2 "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_065510_95618df0.jpg" 2>&1
+Output: ffmpeg version 2026-02-26-git-6695528af6-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 25.100 / 60. 25.100
+  libavcodec     62. 23.103 / 62. 23.103
+  libavformat    62. 10.101 / 62. 10.101
+  libavdevice    62.  2.100 / 62.  2.100
+  libavfilter    11. 12.100 / 11. 12.100
+  libswscale      9.  3.100 /  9.  3.100
+  libswresample   6.  2.100 /  6.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_065510_95618df0.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:24:12.05, start: 0.000000, bitrate: 258 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 204 kb/s, 23.98 fps, 23.98 tbr, 16k tbn, start 0.083000 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 48 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_065510_95618df0.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.10.101
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 23.98 fps, 23.98 tbn (default)
+    Metadata:
+      encoder         : Lavc62.23.103 mjpeg
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 00000216c6794800] The specified filename 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_065510_95618df0.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 00000216c6794800] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 00000216c6794700] video:22KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=2.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=1.02x elapsed=0:00:00.04    
+
+--------------------------------------------------------------------------------
+
+=== Upload: 2026-02-27 07:17:36 ===
+File: Spy4.mp4
+Command: "C:\ffmpeg\ffmpeg-6.x-essentials_build\bin\ffmpeg.exe" -y -ss "00:00:05" -i "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_071735_362004d3.mp4" -vframes 1 -q:v 2 "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_071735_362004d3.jpg" 2>&1
+Output: ffmpeg version 2026-02-26-git-6695528af6-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 25.100 / 60. 25.100
+  libavcodec     62. 23.103 / 62. 23.103
+  libavformat    62. 10.101 / 62. 10.101
+  libavdevice    62.  2.100 / 62.  2.100
+  libavfilter    11. 12.100 / 11. 12.100
+  libswscale      9.  3.100 /  9.  3.100
+  libswresample   6.  2.100 /  6.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_071735_362004d3.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:24:11.99, start: 0.000000, bitrate: 245 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 192 kb/s, 23.98 fps, 23.98 tbr, 16k tbn, start 0.083000 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 48 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_071735_362004d3.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.10.101
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 23.98 fps, 23.98 tbn (default)
+    Metadata:
+      encoder         : Lavc62.23.103 mjpeg
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 00000258d521ff40] The specified filename 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_071735_362004d3.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 00000258d521ff40] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 00000258d521fe00] video:56KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=2.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.717x elapsed=0:00:00.05    
+
+--------------------------------------------------------------------------------
+
+=== Upload: 2026-02-27 07:21:02 ===
+File: Spy5.mp4
+Command: "C:\ffmpeg\ffmpeg-6.x-essentials_build\bin\ffmpeg.exe" -y -ss "00:00:05" -i "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072102_4381bf45.mp4" -vframes 1 -q:v 2 "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072102_4381bf45.jpg" 2>&1
+Output: ffmpeg version 2026-02-26-git-6695528af6-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 25.100 / 60. 25.100
+  libavcodec     62. 23.103 / 62. 23.103
+  libavformat    62. 10.101 / 62. 10.101
+  libavdevice    62.  2.100 / 62.  2.100
+  libavfilter    11. 12.100 / 11. 12.100
+  libswscale      9.  3.100 /  9.  3.100
+  libswresample   6.  2.100 /  6.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072102_4381bf45.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:24:11.97, start: 0.000000, bitrate: 264 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 211 kb/s, 23.98 fps, 23.98 tbr, 16k tbn, start 0.083000 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 48 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072102_4381bf45.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.10.101
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 23.98 fps, 23.98 tbn (default)
+    Metadata:
+      encoder         : Lavc62.23.103 mjpeg
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 000001ae58e784c0] The specified filename 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072102_4381bf45.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 000001ae58e784c0] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 000001ae58e78380] video:21KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=2.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=1.05x elapsed=0:00:00.03    
+
+--------------------------------------------------------------------------------
+
+=== Upload: 2026-02-27 07:25:12 ===
+File: Spy6.mp4
+Command: "C:\ffmpeg\ffmpeg-6.x-essentials_build\bin\ffmpeg.exe" -y -ss "00:00:05" -i "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072512_ca7dc729.mp4" -vframes 1 -q:v 2 "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072512_ca7dc729.jpg" 2>&1
+Output: ffmpeg version 2026-02-26-git-6695528af6-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 25.100 / 60. 25.100
+  libavcodec     62. 23.103 / 62. 23.103
+  libavformat    62. 10.101 / 62. 10.101
+  libavdevice    62.  2.100 / 62.  2.100
+  libavfilter    11. 12.100 / 11. 12.100
+  libswscale      9.  3.100 /  9.  3.100
+  libswresample   6.  2.100 /  6.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072512_ca7dc729.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:24:11.99, start: 0.000000, bitrate: 235 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 182 kb/s, 23.98 fps, 23.98 tbr, 16k tbn, start 0.083000 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 48 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072512_ca7dc729.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.10.101
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 23.98 fps, 23.98 tbn (default)
+    Metadata:
+      encoder         : Lavc62.23.103 mjpeg
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 000001f71c3dff40] The specified filename 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072512_ca7dc729.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 000001f71c3dff40] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 000001f71c3dfe00] video:55KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=2.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.673x elapsed=0:00:00.06    
+
+--------------------------------------------------------------------------------
+
+=== Upload: 2026-02-27 07:25:38 ===
+File: Spy7.mp4
+Command: "C:\ffmpeg\ffmpeg-6.x-essentials_build\bin\ffmpeg.exe" -y -ss "00:00:05" -i "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072537_31be6e68.mp4" -vframes 1 -q:v 2 "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072537_31be6e68.jpg" 2>&1
+Output: ffmpeg version 2026-02-26-git-6695528af6-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 25.100 / 60. 25.100
+  libavcodec     62. 23.103 / 62. 23.103
+  libavformat    62. 10.101 / 62. 10.101
+  libavdevice    62.  2.100 / 62.  2.100
+  libavfilter    11. 12.100 / 11. 12.100
+  libswscale      9.  3.100 /  9.  3.100
+  libswresample   6.  2.100 /  6.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072537_31be6e68.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:24:12.04, start: 0.000000, bitrate: 249 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 196 kb/s, 23.98 fps, 23.98 tbr, 16k tbn, start 0.083000 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 48 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072537_31be6e68.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.10.101
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 23.98 fps, 23.98 tbn (default)
+    Metadata:
+      encoder         : Lavc62.23.103 mjpeg
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 00000168daa88400] The specified filename 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072537_31be6e68.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 00000168daa88400] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 00000168daa882c0] video:25KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=2.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.89x elapsed=0:00:00.04    
+
+--------------------------------------------------------------------------------
+
+=== Upload: 2026-02-27 07:26:05 ===
+File: Spy8.mp4
+Command: "C:\ffmpeg\ffmpeg-6.x-essentials_build\bin\ffmpeg.exe" -y -ss "00:00:05" -i "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072605_29e1fda9.mp4" -vframes 1 -q:v 2 "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072605_29e1fda9.jpg" 2>&1
+Output: ffmpeg version 2026-02-26-git-6695528af6-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 25.100 / 60. 25.100
+  libavcodec     62. 23.103 / 62. 23.103
+  libavformat    62. 10.101 / 62. 10.101
+  libavdevice    62.  2.100 / 62.  2.100
+  libavfilter    11. 12.100 / 11. 12.100
+  libswscale      9.  3.100 /  9.  3.100
+  libswresample   6.  2.100 /  6.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072605_29e1fda9.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:24:11.97, start: 0.000000, bitrate: 200 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 147 kb/s, 23.98 fps, 23.98 tbr, 16k tbn, start 0.083000 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 48 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072605_29e1fda9.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.10.101
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 23.98 fps, 23.98 tbn (default)
+    Metadata:
+      encoder         : Lavc62.23.103 mjpeg
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 0000016dbd070380] The specified filename 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072605_29e1fda9.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0000016dbd070380] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 0000016dbd070280] video:56KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=2.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.677x elapsed=0:00:00.06    
+
+--------------------------------------------------------------------------------
+
+=== Upload: 2026-02-27 07:26:41 ===
+File: Spy9.mp4
+Command: "C:\ffmpeg\ffmpeg-6.x-essentials_build\bin\ffmpeg.exe" -y -ss "00:00:05" -i "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072641_e8e4896f.mp4" -vframes 1 -q:v 2 "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072641_e8e4896f.jpg" 2>&1
+Output: ffmpeg version 2026-02-26-git-6695528af6-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 25.100 / 60. 25.100
+  libavcodec     62. 23.103 / 62. 23.103
+  libavformat    62. 10.101 / 62. 10.101
+  libavdevice    62.  2.100 / 62.  2.100
+  libavfilter    11. 12.100 / 11. 12.100
+  libswscale      9.  3.100 /  9.  3.100
+  libswresample   6.  2.100 /  6.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072641_e8e4896f.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:24:12.01, start: 0.000000, bitrate: 239 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 186 kb/s, 23.98 fps, 23.98 tbr, 16k tbn, start 0.083000 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 48 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072641_e8e4896f.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.10.101
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 23.98 fps, 23.98 tbn (default)
+    Metadata:
+      encoder         : Lavc62.23.103 mjpeg
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 0000021340e147c0] The specified filename 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072641_e8e4896f.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0000021340e147c0] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 0000021340e146c0] video:34KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=2.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=1.01x elapsed=0:00:00.04    
+
+--------------------------------------------------------------------------------
+
+=== Upload: 2026-02-27 07:28:10 ===
+File: Spy10.mp4
+Command: "C:\ffmpeg\ffmpeg-6.x-essentials_build\bin\ffmpeg.exe" -y -ss "00:00:05" -i "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072810_dbb1147b.mp4" -vframes 1 -q:v 2 "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072810_dbb1147b.jpg" 2>&1
+Output: ffmpeg version 2026-02-26-git-6695528af6-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 25.100 / 60. 25.100
+  libavcodec     62. 23.103 / 62. 23.103
+  libavformat    62. 10.101 / 62. 10.101
+  libavdevice    62.  2.100 / 62.  2.100
+  libavfilter    11. 12.100 / 11. 12.100
+  libswscale      9.  3.100 /  9.  3.100
+  libswresample   6.  2.100 /  6.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072810_dbb1147b.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:24:11.99, start: 0.000000, bitrate: 290 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 237 kb/s, 23.98 fps, 23.98 tbr, 16k tbn, start 0.083000 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 48 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072810_dbb1147b.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.10.101
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 23.98 fps, 23.98 tbn (default)
+    Metadata:
+      encoder         : Lavc62.23.103 mjpeg
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 0000023f14ee8400] The specified filename 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072810_dbb1147b.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0000023f14ee8400] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 0000023f14ee82c0] video:34KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=2.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.995x elapsed=0:00:00.04    
+
+--------------------------------------------------------------------------------
+
+=== Upload: 2026-02-27 07:28:47 ===
+File: Spy11.mp4
+Command: "C:\ffmpeg\ffmpeg-6.x-essentials_build\bin\ffmpeg.exe" -y -ss "00:00:05" -i "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072847_bbd0b8b5.mp4" -vframes 1 -q:v 2 "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072847_bbd0b8b5.jpg" 2>&1
+Output: ffmpeg version 2026-02-26-git-6695528af6-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 25.100 / 60. 25.100
+  libavcodec     62. 23.103 / 62. 23.103
+  libavformat    62. 10.101 / 62. 10.101
+  libavdevice    62.  2.100 / 62.  2.100
+  libavfilter    11. 12.100 / 11. 12.100
+  libswscale      9.  3.100 /  9.  3.100
+  libswresample   6.  2.100 /  6.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072847_bbd0b8b5.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:24:11.97, start: 0.000000, bitrate: 222 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 169 kb/s, 23.98 fps, 23.98 tbr, 16k tbn, start 0.083000 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 48 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072847_bbd0b8b5.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.10.101
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 23.98 fps, 23.98 tbn (default)
+    Metadata:
+      encoder         : Lavc62.23.103 mjpeg
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 000001d2353847c0] The specified filename 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072847_bbd0b8b5.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 000001d2353847c0] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 000001d2353846c0] video:57KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=2.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.713x elapsed=0:00:00.05    
+
+--------------------------------------------------------------------------------
+
+=== Upload: 2026-02-27 07:29:28 ===
+File: Spy12.mp4
+Command: "C:\ffmpeg\ffmpeg-6.x-essentials_build\bin\ffmpeg.exe" -y -ss "00:00:05" -i "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072928_87186233.mp4" -vframes 1 -q:v 2 "C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072928_87186233.jpg" 2>&1
+Output: ffmpeg version 2026-02-26-git-6695528af6-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev11, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      60. 25.100 / 60. 25.100
+  libavcodec     62. 23.103 / 62. 23.103
+  libavformat    62. 10.101 / 62. 10.101
+  libavdevice    62.  2.100 / 62.  2.100
+  libavfilter    11. 12.100 / 11. 12.100
+  libswscale      9.  3.100 /  9.  3.100
+  libswresample   6.  2.100 /  6.  2.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/videos/ep_20260227_072928_87186233.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+  Duration: 00:24:12.08, start: 0.000000, bitrate: 238 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 184 kb/s, 23.98 fps, 23.98 tbr, 16k tbn, start 0.083000 (default)
+    Metadata:
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 48 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+Output #0, image2, to 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072928_87186233.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.10.101
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 23.98 fps, 23.98 tbn (default)
+    Metadata:
+      encoder         : Lavc62.23.103 mjpeg
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[image2 @ 0000027fe12b8400] The specified filename 'C:\xampp\htdocs\Tagalog-Dubbed-Anime/uploads/thumbs/ep_20260227_072928_87186233.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 0000027fe12b8400] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 0000027fe12b82c0] video:54KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=2.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.977x elapsed=0:00:00.04    
+
+--------------------------------------------------------------------------------
+
